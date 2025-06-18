@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Flip </title>
+</head>
+<body style="background-image: url('c:\Users\Smc\Downloads\images (27).jpg');
+background-size: cover;
+background-repeat: no-repeat;
+width: 100vw;
+height: 100px;">
+ <h1>FAMOUS TOURIST PLACES</h1>
+      <div class="card-container">
+        <div class="card">
+            <div class="front">
+    <img src="c:\Users\Smc\Downloads\image(22).jpg" alt="Keralas backwaters">
+            </div>
+            <div class="back">
+                <h1>Kerala's backwaters</h1>
+                <p>Kerala's backwaters are a unique and extensive network of waterways, including brackish lagoons, lakes, canals, and rivers, running parallel to the Arabian Sea.</p>
+            </div>
+        </div>
+    </div>
+        <div class="card-container">
+        <div class="card">
+            <div class="front">
+    <img src="c:\Users\Smc\Downloads\image(23).jpg" alt="TAJ MAHAL">
+            </div>
+            <div class="back">
+                <h1>Taj Mahal</h1>
+                <p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan (reigned from 1628 to 1658), to house the tomb of his favourite wife, Mumtaz Mahal.</p>
+            </div>
+        </div>
+    </div>
+        <div class="card-container">
+        <div class="card">
+            <div class="front">
+    <img src="c:\Users\Smc\Downloads\image(24).jpg" alt="mysore palace">
+            </div>
+            <div class="back">
+                <h1>Mysore Palace</h1>
+                <p>Mysore Palace, also known as Amba Vilas Palace, is a historical palace and a royal residence. It is located in Mysore, Karnataka, India. It used to be the official residence of the Wadiyar dynasty and the seat of the Kingdom of Mysore</p>
+            </div>
+        </div>
+    </div>   <div class="card-container">
+        <div class="card">
+            <div class="front">
+    <img src="c:\Users\Smc\Downloads\image(25).jpg" alt="Amber Palace">
+            </div>
+            <div class="back">
+                <h1>Amber Palace</h1>
+                <p>Amber Palace, also known as Amer Fort, is a majestic fort located in Amer, Rajasthan, about 11 kilometers from Jaipur. It's a UNESCO World Heritage Site and a popular tourist attraction known for its stunning architecture, historical significance, and scenic views.</p>
+            </div>
+        </div>
+    </div>
+        <div class="card-container">
+        <div class="card">
+            <div class="front">
+    <img src="c:\Users\Smc\Downloads\image(26).jpg" alt="Sri Harmandir Sahib">
+            </div>
+            <div class="back">
+                <h1>Sri Harmandir Sahib</h1>
+                <p>Sri Harmandir Sahib, also known as the Golden Temple, is the holiest gurdwara (Sikh temple) in Sikhism. It is located in Amritsar, Punjab, India, and is a central place of worship for Sikhs worldwide. The temple is known for its unique architecture, including a golden dome, and its emphasis on equality and service.</p>
+            </div>
+        </div>
+    </div>
+        <div class="card-container">
+        <div class="card">
+            <div class="front">
+    <img src="c:\Users\Smc\Downloads\image(27).jpg" alt="Mehrangarh Fort">
+            </div>
+            <div class="back">
+                <h1>Mehrangarh Fort</h1>
+                <p>Mehrangarh Fort, located in Jodhpur, Rajasthan, is a magnificent structure perched on a 400-foot hill. It's one of India's largest and most well-preserved forts, known for its impressive architecture, intricate carvings, and expansive courtyards. </p>
+            </div>
+        </div>
+    </div>
+
+<style>
+    .card-container {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border: 1px;
+    padding: 10px;
+    box-shadow: black;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.front {
+    background-color:black;
+}
+
+.back {
+    background-color:aliceblue;
+    transform: rotateY(180deg);
+}
+
+.progress-container {
+    width: 50%;
+    height: 20px;
+    background-color:black;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.h1{
+align-items: normal;
+justify-content: center;
+}
+    </style>
+</body>
+
+</html>
